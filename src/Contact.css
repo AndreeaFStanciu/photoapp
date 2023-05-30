@@ -1,0 +1,27 @@
+.containerContactover {
+  background-image: url("bkphotobooth.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 1920px;
+  height: 1080px;
+  color: white;
+  padding: 20px;
+}
+
+.contactmsg1 {
+  text-align: justify;
+  margin-top: 250px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: Lucida Calligraphy;
+  font-size: 25px;
+}
+
+.contactmsg2 {
+  text-align: justify;
+  margin-top: 75px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: Lucida Calligraphy;
+  font-size: 25px;
+}

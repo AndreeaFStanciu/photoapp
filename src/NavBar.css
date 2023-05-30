@@ -1,0 +1,40 @@
+.menu {
+  position: fixed;
+  top: 0;
+  width: 98%;
+  height: 5vh;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+.menu a {
+  color: #f1f1f1;
+  text-decoration: none;
+  height: 100%;
+  display: inherit;
+  align-items: center;
+  margin-left: 35px;
+}
+.menu a:hover {
+  color: darkgoldenrod;
+  transform: scale(1.1);
+}
+.menu .logo {
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  left: 0px;
+}
+.menu .logo img {
+  max-height: 90%;
+  transition: all 0.5s linear;
+}
+.menu .logo:hover img {
+  transform: rotate(20deg);
+}
+.menu .item-comenzi {
+  animation: dancing 0.7s linear infinite;
+}

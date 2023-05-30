@@ -1,0 +1,25 @@
+/* Styles for OrderNow component */
+.OrderNow {
+  text-align: center;
+  margin-top: 500px;
+}
+
+.OrderNow p {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+/* Styles for child components */
+.UploadModule,
+.Albums,
+.Address {
+  margin-bottom: 20px;
+}
+
+.welcome {
+  margin-top: 130px;
+}
+
+h2 {
+  margin-top: 20px;
+}
